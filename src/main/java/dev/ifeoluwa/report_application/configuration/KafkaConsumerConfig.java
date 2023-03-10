@@ -48,10 +48,6 @@ public class KafkaConsumerConfig {
         return new DefaultKafkaConsumerFactory<>(props);
     }
 
-//    @KafkaListener(topics = "my-topic")
-//    public void listen(String message) {
-//        System.out.println("Received message: " + message);
-//    }
 
 }
 
